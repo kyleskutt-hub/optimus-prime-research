@@ -4,38 +4,6 @@
 
 ---
 
-## INSTRUCTIONS FOR CLAUDE CODE
-
-Push this entire directory to GitHub as a new repository called `optimus-prime-research`.
-Make it PUBLIC. Timestamp matters — the git commit dates establish priority.
-
-Repository structure:
-```
-optimus-prime-research/
-├── README.md                  (this file)
-├── TIMELINE.md                (discovery timeline with dates)
-├── EMAIL_TO_LAGARIAS.md       (cold email sent March 25, 2026)
-├── code/
-│   ├── dome_test.py           (C∞ bump function vs tent — positivity/monotonicity)
-│   ├── blur_test.py           (mollification preserves monotonicity)
-│   ├── superposition_test.py  (|ĥ|² positivity by construction)
-│   ├── zero_positivity.py     (positivity at Riemann zero locations)
-│   ├── full_rhs.py            (full explicit formula RHS computation)
-│   ├── direction3.py          (adjustable tent width — signal vs cost)
-│   ├── euler_tower.py         (partial Euler products through primorial filtration)
-│   └── reality_check.py       (linear algebra — c₀ free in constraint system)
-├── results/
-│   ├── dome_test.png
-│   ├── blur_test.png
-│   ├── superposition_test.png
-│   ├── direction3_test.png
-│   └── euler_tower.png
-└── docs/
-    └── primorial_depth_funnel.md  (formal conjecture statement)
-```
-
----
-
 ## WHAT THIS IS
 
 Independent mathematical research investigating connections between prime number distributions, the primorial number system, and the Riemann Hypothesis. Developed November 2025 — March 2026, prior to and independently of Connes (arXiv:2602.04022, February 2026).
